@@ -1,27 +1,28 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Mashaal\\Documents\\Backend-KubesProject-DotNet\\Backend-KubesProject-DotNet.csproj": {}
+    "D:\\SkillKill\\hobby\\docker-backend\\Backend-KubesProject-DotNet.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Mashaal\\Documents\\Backend-KubesProject-DotNet\\Backend-KubesProject-DotNet.csproj": {
+    "D:\\SkillKill\\hobby\\docker-backend\\Backend-KubesProject-DotNet.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Mashaal\\Documents\\Backend-KubesProject-DotNet\\Backend-KubesProject-DotNet.csproj",
+        "projectUniqueName": "D:\\SkillKill\\hobby\\docker-backend\\Backend-KubesProject-DotNet.csproj",
         "projectName": "Backend-KubesProject-DotNet",
-        "projectPath": "C:\\Users\\Mashaal\\Documents\\Backend-KubesProject-DotNet\\Backend-KubesProject-DotNet.csproj",
-        "packagesPath": "C:\\Users\\Mashaal\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Mashaal\\Documents\\Backend-KubesProject-DotNet\\obj\\",
+        "projectPath": "D:\\SkillKill\\hobby\\docker-backend\\Backend-KubesProject-DotNet.csproj",
+        "packagesPath": "C:\\Users\\aadit\\.nuget\\packages\\",
+        "outputPath": "D:\\SkillKill\\hobby\\docker-backend\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Mashaal\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\aadit\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -79,7 +80,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "c:\\program files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }

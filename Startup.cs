@@ -31,6 +31,10 @@ namespace Backend_KubesProject_DotNet
             services.AddSingleton(this.config);
             services.AddControllers();
             services.AddSwaggerGen();
+            services.AddCors(c =>  
+            {  
+                c.AddPolicy("AllowOrigin", options => options.AllowAnyOrigin());  
+            });
 
             services.AddDbContext<DatabaseContext>();
         }
@@ -55,6 +59,8 @@ namespace Backend_KubesProject_DotNet
             app.UseRouting();
 
             app.UseAuthorization();
+
+            app.UseCors(options => options.AllowAnyOrigin());
 
             app.UseEndpoints(endpoints =>
             {
